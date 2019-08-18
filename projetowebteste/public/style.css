@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#bgStart {
+    background-color: rgb(252, 143, 55);
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+#logoStart{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 60px;
+    color: white;
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 10%;
+    text-align: center;
+}
+
+#selectionStart{
+    background-color: whitesmoke;
+    border-radius: 5%;
+    top: 40%;
+    bottom: 40%;
+    left: 35%;
+    right: 40%;
+    position: absolute;
+    width: 30%;
+    height: 40%;
+}
+
+#selectionStartLogin{
+    display:block;
+}
+
+#selectionStartRegister{
+    display: none;
+}
+
+.selectionScreen{
+    border-top: 5px;
+    border-color: rgb(252, 143, 55);
+    text-align: center;
+}
+
+h1.selectionScreen{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 100%;
+    position: relative;
+}
+
+input.selectionScreen{
+    width: 40%;
+    position: relative;
+}
+
+#btnToRegister{
+    left: 30%;
+    width: 40%;
+    display: block;
+    position: relative;
+
+}
+
